@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: kiosk
+    IMAGE_REPO_NAME: kitchen
 
 phases:
   install:
