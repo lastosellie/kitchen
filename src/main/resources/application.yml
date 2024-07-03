@@ -81,4 +81,12 @@ spring:
           destination: kiosk
           contentType: application/json
 
+logging:
+  level:
+    root: ${ORDER_LOG_LEVEL}
+    org:
+      hibernate:
+        SQL: ${ORDER_LOG_LEVEL}
+      springframework:
+        cloud: ${ORDER_LOG_LEVEL}
 
